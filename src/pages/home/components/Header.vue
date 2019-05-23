@@ -24,22 +24,22 @@ export default {
   @import "~styles/variables.stylus";
   .header
     display: flex;
-    line-height: 3rem;
+    line-height: 2.8rem;
     background: $bgColor;
     color: #fff;
     .header-left
-      width: 3rem;
+      width: 2.4rem;
       float: left;
       .back-icon
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     .header-input
       flex: 1;
       background: white;
-      border-radius: 0.6rem;
-      margin-top: 0.3rem;
-      line-height: 2.4rem;
-      height: 2.4rem;
+      border-radius: 0.2rem;
+      margin-top: 0.4rem;
+      line-height: 2rem;
+      height: 2rem;
       color: #ccc;
       padding-left: 0.5rem;
     .header-right
