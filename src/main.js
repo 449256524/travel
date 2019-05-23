@@ -3,6 +3,8 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+import 'swiper/dist/css/swiper.css'
 import fastClick from 'fastclick'
 // iconfont图标
 import 'styles/iconfont.css'
@@ -10,6 +12,8 @@ import 'styles/iconfont.css'
 import 'styles/reset.css'
 // 防止不同手机屏幕像素边框不一致
 import 'styles/border.css'
+
+Vue.use(VueAwesomeSwiper)
 
 Vue.config.productionTip = false
 fastClick.attach(document.body)
